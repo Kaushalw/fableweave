@@ -936,8 +936,10 @@ About Us Style
   background-image: url(../images/about-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+   
   padding: 40px 0px 120px 0px;
+  width: 100%;
+  height: auto;
 }
 h2 span .comma .and{
 color:#c21010;
@@ -1429,7 +1431,19 @@ responsive
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
+
+.about-us  {
+  max-width: 200%;
+  height: auto;
+}
+.rowimg{
+  display: none;
+}
+ 
+#contact{
+padding-top: 500px;
+}
   .main-banner {
     padding-top: 196px;
   }
@@ -1531,6 +1545,7 @@ responsive
   footer p {
     margin: 15px 0px 30px 0px;
   }
+
 }
 
 @media (max-width: 767px) {
