@@ -921,7 +921,29 @@ Banner Style
 }
 
 
+/* 
+---------------------------------------------
+icons 
+--------------------------------------------- 
+*/
+.social-icons a {
+  color: #004aad;
+  font-size: 38px;
+  margin: 0 20px;
+  display: inline-block;
+  transition: color 0.3s;
+}
 
+.social-icons a:hover {
+  color: #ffd230;
+}
+
+@media (max-width: 576px) {
+  .social-icons a {
+    font-size: 26px;
+    margin: 0 6px;
+  }
+}
 /* 
 ---------------------------------------------
 About Us Style
