@@ -834,6 +834,7 @@ Banner Style
   top: 100px;
   width: 220px;
   height: 1000px;
+ z-index: -5;
 }
 
 .main-banner:before {
